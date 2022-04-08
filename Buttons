@@ -1,0 +1,68 @@
+<style>
+
+
+  
+.uber-button {
+      background-color: black;
+      color: white;
+      border: none;
+      height: 40px;
+      width: 110px;
+      cursor: pointer;
+    }
+
+.uber-button:hover {
+  opacity: 0.5;
+}
+
+.amazon-button {
+    background-colo  box-shadow: 0px 3px 0px rgb(0, 0, 0.1)
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+.amazon-button:hover{
+
+  background-color: rgb(196, 166, 57);
+}
+
+    .github-button {
+      background-color: rgb(46, 164, 79);
+      color: white;
+      border: none;
+      height: 40px;
+      width: 90px;
+      font-weight: bold;
+      font-size: 15px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+
+.github-button:hover{
+  box-shadow: 3px 5px 3px  rgba(0, 0, 0, 0.15)
+
+
+
+}
+
+
+  </style>
+
+<button class="uber-button">
+    Request now
+  </button>
+
+<button class="amazon-button">
+    Add to Cart
+  </button>
+  
+  <button class="github-button">
+    Sign up
+  </button>
+
+
+
+
+  
+ 
