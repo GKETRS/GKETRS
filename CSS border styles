@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS</title>
+  </head>
+  <body>
+    <!-- verschiede border-styles -->
+    <br />
+    <div class="Hello">15px</div>
+    <br />
+    <div class="HelloA">15px 50px</div>
+    <br />
+    <div class="HelloB">15px 50px 30px</div>
+    <br />
+    <div class="HelloC">15px 50px 30px 5px</div>
+  </body>
+</html>
+
+CSS
+
+
+
+.Hello{
+
+margin-left: 10px;
+font-weight: bold;
+color: white;
+text-align: center;
+height: 200px;
+width: 200px;
+background-color: blue;
+border-radius: 15px;
+
+
+}
+
+.HelloA{
+
+margin-left: 50px;
+font-weight: bold;
+color: white;
+text-align: center;
+height: 200px;
+width: 200px;
+background-color: red;
+border-radius: 15px 50px;
+
+
+}
+.HelloB{
+
+margin-left: 90px;
+font-weight: bold;
+color: white;
+text-align: center;
+height: 200px;
+width: 200px;
+background-color: green;
+border-radius: 15px 50px 30px;
+
+
+
+}
+.HelloC{
+
+margin-left: 120px;
+font-weight: bold;
+color: white;
+text-align: center;
+height: 200px;
+width: 200px;
+background-color: yellow;
+border-radius: 15px 50px 30px 5px;
+        
+}
